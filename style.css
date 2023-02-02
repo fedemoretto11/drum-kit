@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imagenes/publico.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-size: 1.5rem;
+    padding: .8rem .3rem;
+    margin: 5px;
+    width: 100px;
+    min-width: 75px;
+    border: 3px solid #000;
+    transition: all 0.07s;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #F1EE0F;
+    box-shadow: 0 0 10px #F1EE0F;
+}
+
+kbd {
+    display: block;
+    font-size: 30px;
+}
+
+.sound {
+    color: #F1EE0F;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
